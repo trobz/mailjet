@@ -18,7 +18,7 @@ data = {
     #'FromEmail': 'gestion@superquinquin.fr',
     'FromName': 'Member',
     'Subject': 'please ignore this email',
-    'Sender': True,
+    'Sender': True, # also tried with True, 'True', 1
     'Text-part': 'This is a test from Trobz: using the API',
     'Recipients': [{'Email':'nils+coordinator@trobz.com', 'Name':'Coordinator'}]
 }
